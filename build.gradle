@@ -28,6 +28,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
+    compile 'com.google.protobuf:protobuf-javalite:3.9.1'
+    compile 'com.google.protobuf:protobuf-java:3.9.1'
 }
 
 task copyJars(type: Copy) {
